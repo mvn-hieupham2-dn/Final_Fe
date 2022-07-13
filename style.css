@@ -1,0 +1,164 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --btn-color-green:#0eb582;
+    --btn-border-green:#0eb582;
+    --btn-color-dark-blue:#273c66;
+}
+.container{
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* comman btn */
+.btn{
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-weight: 600;
+
+}
+.header{
+    background-color: var(--btn-color-dark-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.header_name{
+    color: white;
+}
+.header_left{
+    cursor: pointer;
+}
+.header_right{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+    height: 60px;
+    padding: 10px 10px;
+    border-radius: 25px;
+    border: 1px solid #3c4d6f;
+    cursor: pointer;
+}
+.header_logo{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.header_home-title{
+    text-align: center;
+    margin: 20px 0; 
+    font-size: 40px;
+    font-weight: 800;
+    color: #273c66;
+    margin: 50px 0;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+/* crud */
+
+.crud{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* table manage user */
+.btn_create{
+    background-color: #0eb582;
+    transition: all 0.5s;
+}
+.btn_create:hover{
+    background-color: var(--btn-color-dark-blue);
+}
+.btn_edit{
+    background-color: green;
+    
+}
+.btn-delete{
+    background-color: var(--btn-color-dark-blue);
+
+}
+
+/* form search */
+.form-control {
+    outline: none;
+    width: 350px;
+}
+.input_search{
+   width: 500px;
+   height: 40px;
+   border-radius: 25px;
+   padding: 0 20px;
+}
+
+table {
+    margin-top: 20px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid red  ;
+    margin-bottom: 20px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+a{
+    text-decoration: none;
+} 
+/* form create user */
+.create_user{
+    display: flex;
+}
+.info-user{
+    padding: 10px;
+    border-radius:12px ;
+    margin: 20px 10px 0;
+}
+.title-info{
+    display: block;
+    text-align: left;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.btn_add{
+    background-color: blue;
+    display: block;
+    margin: 10px auto;
+    padding: 10px 52px;
+}
+.btn_editUser{
+    background-color: green;
+    display: block;
+    margin: 10px auto;
+    padding: 10px 52px;
+}
+/* remove arrow input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
