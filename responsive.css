@@ -1,0 +1,30 @@
+@media only screen and (max-width: 768px) {
+    .crud{
+        display: flex;
+    }
+    .input_search{
+        width: 400px;
+    }
+    .btn{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .crud{
+        display: flex;
+        flex-direction: row;
+    }
+    .input_search{
+        width: 200px;
+    }
+    .btn{
+        font-size: 12px;
+    }
+    table {
+        margin-top: 20px;
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 10%;
+        border: 1px solid red  ;
+      }
+}

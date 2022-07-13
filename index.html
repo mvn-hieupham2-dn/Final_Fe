@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>CRUD</title>
+</head>
+<body>
+    <main class="main">
+        <header class="header header_home container">
+            <div class="header_left">
+                <a href="index.html" class="header_logo"> LOGO</a>
+            </div>
+            <div class="header_right">
+                <img class="avatar" src="./img/avatar.webp" alt="avatar">
+                <div class="header_name">Hieu</div>
+            </div>
+
+        </header>
+        <section class="body">
+            <div class="container">
+            <h1 class="header_home-title">Management User</h1>
+
+                <div class="crud">
+                    <div id="form-search">
+                        <label for="search"></label>
+                        <input type="text" class="form-control input_search" placeholder="Search user by name" oninput="search()" id="search">
+                    </div>
+                   <a href="./create.html" class="btn btn_create"> Add new user </a>
+            </div>
+                <table class="table_list-user">
+                    <thead>
+                        <tr>
+                          <th>Name</th>
+                          <th>Email</th>
+                          <th>Age</th>
+                          <th>Phone</th>
+                          <th>Address</th>
+                          <th>Action</th>
+                        </tr>
+                    </thead>
+                        <tbody>
+                    </tbody >
+                 </table>
+            </div>
+        </section>
+    </main>
+    <script src="./services.js"></script>
+</body>
+</html>
